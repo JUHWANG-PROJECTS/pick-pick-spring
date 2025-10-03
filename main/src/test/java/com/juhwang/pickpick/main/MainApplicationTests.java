@@ -1,13 +1,13 @@
-package com.jshwang.pickpick;
+package com.juhwang.pickpick.main;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PickpickApplicationTests {
+class MainApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }

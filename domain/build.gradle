@@ -1,0 +1,11 @@
+group = 'com.juhwang.pickpick'
+version = '0.0.1-SNAPSHOT'
+description = 'domain'
+
+bootJar {
+    enabled = false
+}
+
+jar {
+    enabled = true
+}

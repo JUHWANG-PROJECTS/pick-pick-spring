@@ -1,0 +1,17 @@
+group = 'com.juhwang.pickpick'
+version = '0.0.1-SNAPSHOT'
+description = 'main'
+
+
+dependencies {
+    implementation project(":application")
+    implementation project(":domain")
+    implementation project(":infrastructure")
+    implementation project(":presentation")
+
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}

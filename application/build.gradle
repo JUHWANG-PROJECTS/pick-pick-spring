@@ -1,0 +1,11 @@
+group = 'com.juhwang.pickpick'
+version = '0.0.1-SNAPSHOT'
+description = 'application'
+
+bootJar {
+	enabled = false
+}
+
+jar {
+	enabled = true
+}
